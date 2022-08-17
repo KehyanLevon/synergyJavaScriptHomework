@@ -1,0 +1,14 @@
+table
+{
+    width: 600px;
+    height: 600px;
+    border:1px solid black;
+}
+tr, td
+{
+    border: 1px solid black;
+}
+input
+{
+    width: 100px;
+}
