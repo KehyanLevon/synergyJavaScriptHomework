@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        button{
+            width: auto;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title"></h1>
+    
+
+    <input type="text" placeholder="title" id="titleInput">
+    <input type="text" placeholder="discription" id="discription">
+    <select name="statuses" id="statuses">
+        <option value="w">waiting for a response</option>
+        <option value="a">active</option>
+        <option value="c">completed</option>
+        <option value="d">denied</option>
+        <option value="r">rejected</option>
+    </select>
+    
+    <button onclick="addTaskbtn()">add task</button>
+    
+    <table id="toDoTable">
+        <thead>
+            <tr>
+                <th>title</th>
+                <th>discription</th>
+                <th>status</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <script src="userToDoListScript.js"></script>
+</body>
+</html>
